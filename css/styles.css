@@ -1,0 +1,187 @@
+body {
+  background-color: #222831;
+  margin: 0;
+  color: #eeeeee;
+  font-family: 'Questrial', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #00adb5;
+  margin: 30px 0 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  width: 30%;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+hr {
+  border: 5px dotted;
+  color: #00adb5;
+  border-bottom: none;
+  width: 4%;
+  margin: 40px auto;
+}
+
+iframe{
+  width: 75%;
+  display: block;
+  margin: 0 auto 30px;
+
+}
+a{
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.nav-bar {
+  background-color: #00adb5;
+  height: 44px;
+  position: fixed;
+  width: 100%;
+  transition: top 0.4s;
+  z-index: 9999;
+}
+
+.nav-bar-box {
+  height: 44px;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 44px;
+}
+
+.nav-bar-link {
+  height: 44px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #eeeeee;
+  vertical-align: middle;
+}
+
+.lake-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.introduction {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 40%;
+  font-family: 'Italianno', cursive;
+}
+
+.fa-html5, .fa-css3, .fab  {
+  float: left;
+  position: relative;
+  left: 27%;
+}
+
+.skills-description {
+  width: 30%;
+  margin: 0 auto;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+
+.java{
+  margin-bottom: 0;
+}
+
+.about-description {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+
+.nav-list {
+  height: 44px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.nav-list-items {
+  height: 44px;
+  position: relative;
+  text-align: center;
+  line-height: 44px;
+}
+
+.about-list {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  width: 30%;
+}
+
+.about-title {
+  width: 100%;
+  text-align: center;
+}
+.fas{
+  color: #00adb5;
+}
+.foot{
+  background-color: #00adb5;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.copyright{
+  display: inline-block;
+  vertical-align: middle;
+}
+.about-span{
+  margin-left: 10px;
+  font-weight: 400;
+  color: #eeeeee;
+  letter-spacing: 1px;
+  line-height: 1.3;
+}
+.fa-home{
+  display: inline-block;
+  vertical-align: middle;
+}
+.contact-variances{
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+.contact-panel{
+  position: relative;
+}
+.fa-instagram{
+  position: absolute;
+  left: 175px;
+  top: 50px;
+}
+.fa-github{
+  position: absolute;
+  left: 175px;
+  top: 97px;
+}
+.fa-linkedin{
+  position: absolute;
+  left: 175px;
+  top: 145px;
+}
